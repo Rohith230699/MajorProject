@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyProfile">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dateOfBirthFaculty"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/FacultyPhone"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/PHONE"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Date of Birth:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FacultyPhone"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/FacultyDepartment"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/PHONE"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/dept"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Phone Number:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FacultyDepartment"
+        android:layout_width="88dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/EmailFaculty"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/dept"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/EmailFaculty"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Department:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/EmailFaculty"
+        android:layout_width="248dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/FacultyNameProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/FacultyNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="78dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/bckarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/backarrow"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/FacultyNameProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="79dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Email Address:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/FacultyLogout"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/edittext"
+        android:text="Log Out" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "600985004905",
+    "project_id": "facerecognition-7cda3",
+    "storage_bucket": "facerecognition-7cda3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600985004905:android:98628879e0ad1d5be12bf8",
+        "android_client_info": {
+          "package_name": "com.example.registerloginui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600985004905-o1gkobq2obf3c53gkld6aamcmdopd8ga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.registerloginui",
+            "certificate_hash": "6513bc5bf8776eaf7d1d023ab659087443e69e82"
+          }
+        },
+        {
+          "client_id": "600985004905-e8hdq5cgbugr2vvca7f9jo70kj576g9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3_U33eRwZ5WR7axpTU0e_QuJjdZL7Flk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600985004905-e8hdq5cgbugr2vvca7f9jo70kj576g9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

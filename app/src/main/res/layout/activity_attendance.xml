@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity">
+
+    <TextView
+        android:id="@+id/presented"
+        android:layout_width="86dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/working"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="101dp"
+        android:gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="213dp"
+        android:gravity="center"
+        android:textAlignment="viewStart"
+        android:fontFamily="casual"
+        android:text="No. of Days presented:"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="RtlCompat" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAttendance"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="340dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/textView30"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="48dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="361dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Attendance Report"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="213dp"
+        android:fontFamily="casual"
+        android:text="No. of Working Days:"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/working"
+        android:layout_width="86dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="101dp"
+        android:gravity="center"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>

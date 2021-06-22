@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registerloginui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RegisterLoginUI">
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <activity android:name=".FacultyProfile"></activity>
+        <activity android:name=".DetailedNotificationStudent" />
+        <activity android:name=".DetailedNotification" />
+        <activity android:name=".MakeNotification" />
+        <activity android:name=".FacultyNotification"></activity>
+        <activity android:name=".DetailedReport" />
+        <activity android:name=".FacultyAttendance" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".PaymentActivity">
+        </activity>
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".FacultyHomePage" />
+        <activity android:name=".FacultyOTPVerify" />
+        <activity android:name=".StudentHomePage" />
+        <activity android:name=".PhoneOTPVerification" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".SelectionActivity" />
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

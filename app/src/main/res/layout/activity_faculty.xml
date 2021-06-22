@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/slide2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/backarrow"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="61dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/enter_details"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="146dp"
+        android:src="@drawable/students" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextFirstName"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="438dp"
+        android:ems="10"
+        android:hint="@string/first_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextLastName"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="438dp"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextFatherName"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="346dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="375dp"
+        android:ems="10"
+        android:hint="@string/middle_name"
+        android:inputType="textPersonName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fatherName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextStudentPhone"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:hint="@string/student_phone_no"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:maxLength="10"
+            android:inputType="phone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextStudentGender"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:hint="@string/gender"
+        android:inputType="none">
+
+        <AutoCompleteTextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingTop="10dp"
+            android:inputType="none"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextStudentDOB"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:focusable="true"
+        android:focusedByDefault="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="245dp"
+        android:hint="@string/date_of_birth"
+        android:inputType="date">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/studentDOB"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="date"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:drawableEnd="@drawable/calender"
+            android:clickable="true"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextStudentDepartment"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="246dp"
+        android:ems="10"
+        android:hint="@string/department"
+        android:inputType="none">
+
+        <AutoCompleteTextView
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="none"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextEmail"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginBottom="176dp"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextpassword"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="346dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:layout_marginBottom="106dp"
+        android:hint="@string/password"
+        android:inputType="textPassword">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textPassword"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/next_step"
+        android:textStyle="bold|italic"
+        android:background="@drawable/edittext"
+        android:layout_marginBottom="56dp" />
+
+</RelativeLayout>

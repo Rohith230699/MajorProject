@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentHomePage">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="253dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/welcome_back"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="249dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="89dp"
+        android:fontFamily="casual"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView1"
+        android:layout_width="167dp"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="326dp"
+        android:checkable="false"
+        app:cardCornerRadius="15dp"
+        app:checkedIconTint="@color/black"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/attendance" />
+
+        <TextView
+            android:id="@+id/icon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text="@string/attendance"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="493dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView2"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="40dp"
+        android:checkable="false"
+        app:cardCornerRadius="15dp"
+        app:checkedIconTint="@color/black"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:id="@+id/iconed"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/payment" />
+
+        <TextView
+            android:id="@+id/icon_named"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text="@string/payment"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView3"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_below="@+id/cardView1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:checkable="false"
+        app:cardCornerRadius="15dp"
+        app:checkedIconTint="@color/black"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:id="@+id/icon3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/notification" />
+
+        <TextView
+            android:id="@+id/icon_named3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text="@string/notification"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView4"
+        android:layout_width="167dp"
+        android:layout_height="203dp"
+        android:layout_below="@+id/cardView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="40dp"
+        android:checkable="false"
+        app:cardCornerRadius="15dp"
+        app:checkedIconTint="@color/black"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:paddingStart="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/profiles" />
+
+        <TextView
+            android:id="@+id/icon_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text="@string/profile"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="493dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="151dp"
+        app:srcCompat="@drawable/studenthomepage" />
+
+
+
+</RelativeLayout>

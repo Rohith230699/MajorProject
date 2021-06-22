@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeNotification">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="97dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/create_new_notification"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="106dp"
+        android:gravity="start"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:text="@string/create_new_notifications_here" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextNotificationTitle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="30dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        android:ems="10"
+        android:hint="@string/notification_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TitleNotification"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="328dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextNotificationNote"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="132dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="30dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        android:ems="10"
+        android:hint="@string/note"
+        android:textAlignment="viewStart"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NotificationNote"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:fontFamily="casual"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:gravity="start"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintVertical_bias="0.073" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextNotificationDescription"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="30dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        android:ems="10"
+        android:hint="Description"
+        android:textAlignment="viewStart"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NotificationDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:fontFamily="casual"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:gravity="start"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintVertical_bias="0.073" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewFaculty"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/SendNotification"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="200dp"
+        android:checkable="true"
+        android:onClick="FacultyUpload"
+        app:cardCornerRadius="10dp"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/icon_named"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/faculty"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewStudent"
+        android:layout_width="172dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/SendNotification"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="200dp"
+        android:checkable="true"
+        android:onClick="StudentUpdate"
+        app:cardCornerRadius="10dp"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/icon_named2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/student"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/SendNotification"
+        android:layout_width="351dp"
+        android:background="@drawable/edittext"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="56dp"
+        android:text="Send Notification"
+        android:fontFamily="casual"/>
+
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/DateOfBirth"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/EmailStudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Date of Birth:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/parentPhone"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/ParentName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Email Address:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/EmailStudent"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/parentPhone"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Parent Phone:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ParentName"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/PhoneStudent2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Parent Name:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/PhoneStudent2"
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/DepartmentStudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Phone Number:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/nameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="78dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/rollProfile"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/nameProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="79dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Roll Number:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/RollNumberStudent"
+        android:layout_width="248dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/nameProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/DepartmentStudent"
+        android:layout_width="88dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/RollNumberStudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/SectionStudent"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/RollNumberStudent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textviewstyle"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="89dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/rollProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Department:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/rollProfile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+        android:text="Section:"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/backarrow"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/edittext"
+        android:text="Log Out" />
+</RelativeLayout>
